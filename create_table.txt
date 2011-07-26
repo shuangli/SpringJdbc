@@ -1,0 +1,22 @@
+delimiter $$
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `firstname` varchar(45) DEFAULT NULL,
+  `lastname` varchar(45) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `city` varchar(45) DEFAULT NULL,
+  `state` varchar(25) DEFAULT NULL,
+  `zipcode` int(11) DEFAULT NULL,
+  `col1` varchar(45) DEFAULT NULL,
+  `col2` varchar(45) DEFAULT NULL,
+  `col3` varchar(45) DEFAULT NULL,
+  `col4` varchar(45) DEFAULT NULL,
+  `col5` varchar(45) DEFAULT NULL,
+  `col6` varchar(45) DEFAULT NULL,
+  `col7` varchar(45) DEFAULT NULL,
+  `col8` varchar(45) DEFAULT NULL,
+  `col9` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8$$
+
